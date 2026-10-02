@@ -1,0 +1,10 @@
+# General Python packages
+# Windows installation order is handled by SETUP_WINDOWS.bat.
+opencv-python
+numpy==1.26.4
+pandas
+openpyxl
+Pillow
+
+# face-recognition is installed separately with --no-deps because
+# the normal dlib dependency tries to compile dlib on Windows.

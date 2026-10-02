@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+dataset/students/*
+encodings/*.pkl
+reports/*.csv
+reports/*.xlsx
+database/*.db
